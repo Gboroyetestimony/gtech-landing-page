@@ -1,0 +1,155 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial;
+scroll-behavior: smooth;
+}
+
+body {
+background: #0b1020;
+color: white;
+}
+
+/* NAVBAR */
+.navbar {
+display: flex;
+justify-content: space-between;
+padding: 20px 8%;
+background: rgba(10,15,30,0.8);
+position: sticky;
+top: 0;
+backdrop-filter: blur(10px);
+}
+
+nav a {
+margin-left: 15px;
+color: #bbb;
+text-decoration: none;
+}
+
+/* HERO */
+.hero {
+text-align: center;
+padding: 90px 20px;
+}
+
+.hero h1 {
+font-size: 44px;
+}
+
+.hero p {
+color: #aaa;
+margin-top: 10px;
+}
+
+/* BUTTON */
+button {
+margin-top: 15px;
+padding: 12px 18px;
+border: none;
+border-radius: 10px;
+background: #2563eb;
+color: white;
+cursor: pointer;
+}
+
+/* SECTIONS */
+.section {
+max-width: 1000px;
+margin: 60px auto;
+padding: 60px 20px;
+background: rgba(255,255,255,0.03);
+border-radius: 20px;
+}
+
+/* CARDS */
+.grid {
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+gap: 15px;
+}
+
+.card {
+background: rgba(255,255,255,0.05);
+padding: 18px;
+border-radius: 12px;
+}
+
+/* PROJECT */
+.project {
+background: rgba(255,255,255,0.05);
+padding: 15px;
+border-radius: 15px;
+}
+
+.thumb {
+height: 160px;
+background: linear-gradient(135deg,#2563eb,#7c3aed);
+border-radius: 12px;
+margin-bottom: 10px;
+}
+
+.links {
+display: flex;
+gap: 10px;
+}
+
+/* BUTTONS */
+.btn {
+padding: 8px 12px;
+border-radius: 8px;
+text-decoration: none;
+color: white;
+background: #334155;
+}
+
+.primary {
+background: #2563eb;
+}
+
+/* CONTACT */
+.contact-text {
+color: #aaa;
+margin-bottom: 15px;
+text-align: center;
+}
+
+form {
+display: flex;
+flex-direction: column;
+gap: 10px;
+max-width: 500px;
+margin: auto;
+}
+
+input, textarea {
+padding: 12px;
+border-radius: 10px;
+border: 1px solid #333;
+background: #0f172a;
+color: white;
+}
+
+/* WhatsApp button */
+.whatsapp {
+display: block;
+text-align: center;
+margin-top: 15px;
+color: #25D366;
+font-weight: bold;
+}
+
+#msg {
+text-align: center;
+margin-top: 10px;
+color: lightgreen;
+}
+
+.or-text {
+text-align: center;
+margin-top: 18px;
+margin-bottom: 10px;
+color: #94a3b8;
+font-size: 14px;
+}
